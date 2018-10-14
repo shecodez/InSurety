@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// TODO: send image as prop to layout and allow childern
-// import Layout from "../shared/Layout";
 import NavMenu from "../shared/NavMenu";
 import Footer from "../shared/Footer";
 
