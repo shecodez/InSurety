@@ -12,6 +12,7 @@ import LoginPage from "../components/pages/LoginPage";
 
 import InsurancePage from "../components/pages/InsurancePage";
 import ContactPage from "../components/pages/ContactPage";
+import StatsPage from "../components/pages/StatsPage";
 
 //import NotFound from "../components/pages/error/NotFound";
 
@@ -20,6 +21,7 @@ import FetchData from "../components/FetchData";
 
 export default () => (
 	<Switch>
+		<Route exact path="/stats" component={StatsPage} />
 		<Route exact path="/contact" component={ContactPage} />
 		<Route exact path="/insurance" component={InsurancePage} />
 		<Route exact path="/" component={HomePage} />

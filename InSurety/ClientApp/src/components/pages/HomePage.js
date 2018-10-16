@@ -4,7 +4,7 @@ import Layout from "../shared/Layout";
 import Services from "../sections/Services";
 import Intro from "../sections/Intro";
 import About from "../sections/About";
-import Stats from "../sections/Stats";
+import HomeStats from "../sections/HomeStats";
 import News from "../sections/News";
 import Carousel from "../sections/Carousel";
 import Brands from "../sections/Brands";
@@ -19,7 +19,7 @@ const HomePage = () => {
 				</div>
 			</div>
 			<About />
-			<Stats />
+			<HomeStats />
 			<News />
 			<Carousel />
 		</Layout>

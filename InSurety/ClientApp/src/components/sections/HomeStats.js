@@ -24,11 +24,11 @@ export const StatBoxData = [
 	}
 ];
 
-class Stats extends React.Component {
+class HomeStats extends React.Component {
 	render() {
 		return (
 			<section
-				className="stats-section"
+				className="HomeStats-section"
 				style={{
 					padding: "80px 0",
 					background: "linear-gradient(60deg, #F2C14E, #F78154)"
@@ -48,4 +48,4 @@ class Stats extends React.Component {
 	}
 }
 
-export default Stats;
+export default HomeStats;
